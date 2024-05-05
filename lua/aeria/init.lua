@@ -1,7 +1,8 @@
 local runtimepath = vim.api.nvim_list_runtime_paths()[1]
 local queriespath = runtimepath .. '/queries/aeria'
 local pluginpath = debug.getinfo(1).source:sub(2, -15)
-local pluginqueriespath = pluginpath .. '/ts-dist/queries'
+local tsdistpath = pluginpath .. '/../ts-dist'
+local pluginqueriespath = tsdistpath .. '/queries'
 local aeriaSettings = vim.api.nvim_create_augroup('Aeria Settings', { clear = true })
 
 vim.filetype.add({
@@ -11,7 +12,7 @@ vim.filetype.add({
 })
 
 vim.treesitter.language.add('aeria', {
-    path = pluginpath .. '/ts-dist/aeria.so',
+    path = tsdistpath .. '/aeria.so',
     filetype = 'aeria'
 })
 
