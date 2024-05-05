@@ -18,15 +18,15 @@ vim.treesitter.language.add('aeria', {
 
 if vim.fn.isdirectory(queriespath) == 0 then
   vim.fn.mkdir(queriespath, 'p')
+end
 
-  for k, v in pairs(vim.fn.readdir(pluginqueriespath)) do
-    local file = pluginqueriespath .. '/' .. v
-    local bufnr = vim.fn.bufadd(file)
-    vim.fn.bufload(bufnr)
-    vim.api.nvim_buf_call(bufnr, function()
-      vim.cmd.write(queriespath .. '/' .. v)
-    end)
-  end
+for k, v in pairs(vim.fn.readdir(pluginqueriespath)) do
+  local file = pluginqueriespath .. '/' .. v
+  local bufnr = vim.fn.bufadd(file)
+  vim.fn.bufload(bufnr)
+  vim.api.nvim_buf_call(bufnr, function()
+    vim.cmd.write({ queriespath .. '/' .. v,  bang = true })
+  end)
 end
 
 vim.api.nvim_create_autocmd({

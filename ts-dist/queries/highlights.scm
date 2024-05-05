@@ -25,6 +25,7 @@
  (condition)
  (property_str_attribute)
  (property_num_attribute)
+ (property_enum_attribute)
  (property_file_attribute)
  (property_ref_attribute)
 ] @attribute.builtin
@@ -32,6 +33,7 @@
 [
  (property_str_type)
  (property_num_type)
+ (property_enum_type)
  (property_file_type)
  (property_ref type: (capitalized_word))
 ] @type.builtin
