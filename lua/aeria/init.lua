@@ -27,6 +27,8 @@ for k, v in pairs(vim.fn.readdir(pluginqueriespath)) do
   vim.api.nvim_buf_call(bufnr, function()
     vim.cmd.write({ queriespath .. '/' .. v,  bang = true })
   end)
+
+  vim.api.nvim_buf_delete(bufnr, {})
 end
 
 vim.api.nvim_create_autocmd({
