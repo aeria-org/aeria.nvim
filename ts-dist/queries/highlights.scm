@@ -33,6 +33,7 @@
 [
  (property_str_type)
  (property_num_type)
+ (property_bool_type)
  (property_enum_type)
  (property_file_type)
  (property_ref type: (capitalized_word))
