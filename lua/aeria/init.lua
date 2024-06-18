@@ -1,7 +1,7 @@
 local runtimepath = vim.api.nvim_list_runtime_paths()[1]
 local queriespath = runtimepath .. '/queries/aeria'
 local pluginpath = debug.getinfo(1).source:sub(2, -15)
-local tsdistpath = pluginpath .. '/../ts-dist'
+local tsdistpath = pluginpath .. '/../dist'
 local pluginqueriespath = tsdistpath .. '/queries'
 local aeriaSettings = vim.api.nvim_create_augroup('Aeria Settings', { clear = true })
 
@@ -31,14 +31,18 @@ for k, v in pairs(vim.fn.readdir(pluginqueriespath)) do
   vim.api.nvim_buf_delete(bufnr, {})
 end
 
-vim.api.nvim_create_autocmd({
-    'BufNewFile',
-    'BufRead',
-  },
-  {
-  pattern = { '*.aeria' },
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = { 'aeria' },
   callback = function()
     vim.treesitter.start()
+    vim.lsp.start({
+      name = 'aeria-language-server',
+      cmd = {
+        'node',
+        tsdistpath .. '/language-server.js',
+        '--stdio',
+      },
+    })
   end,
   group = aeriaSettings
 })
