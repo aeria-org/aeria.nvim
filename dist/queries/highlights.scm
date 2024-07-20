@@ -24,6 +24,7 @@
                        "timestamps"
                        "icon"
                        ] @keyword)
+
 (collection_keyed_list [
                         "form"
                         "filters"
@@ -68,6 +69,12 @@
                     "translateBadge"
                     ] @keyword)
 
+(collection_filters_presets [
+                             "filtersPresets"
+                             "label"
+                             "filters"
+                             ] @keyword)
+
 [
   (attribute)
   (condition)
@@ -75,16 +82,16 @@
 
 (collection name: (collection_name) @type)
 (properties_column
-  name: (word) @local.definition
+  name: (variable_name) @local.definition
   type: (properties_column_type) @type.builtin
 )
 (properties_column
-  name: (word) @local.definition
+  name: (variable_name) @local.definition
   type: (collection_name) @type
 )
 
 (binary_operation
-  property_name: (word) @variable
+  property_name: (variable_name) @variable
   (binary_operator) @operator
   )
 (logical_concatenator_operator) @operator
