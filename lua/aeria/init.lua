@@ -34,6 +34,8 @@ end
 vim.api.nvim_create_autocmd('FileType', {
   pattern = { 'aeria' },
   callback = function()
+    vim.opt_local.comments = '://'
+    vim.opt_local.commentstring = '// %s'
     vim.treesitter.start()
     vim.lsp.start({
       name = 'aeria-language-server',
