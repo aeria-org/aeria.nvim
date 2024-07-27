@@ -14,6 +14,7 @@
 
 (collection [
              "collection"
+             "extends"
              "properties"
              "presets"
              "properties"
@@ -81,17 +82,22 @@
 ]@attribute.builtin
 
 (collection name: (collection_name) @type)
+(collection
+  module: (module_name) @module
+  symbol: (collection_name) @type
+  )
+
 (properties_column
-  name: (variable_name) @local.definition
+  name: (identifier) @local.definition
   type: (properties_column_type) @type.builtin
 )
 (properties_column
-  name: (variable_name) @local.definition
+  name: (identifier) @local.definition
   type: (collection_name) @type
 )
 
 (binary_operation
-  property_name: (variable_name) @variable
+  property_name: (identifier) @variable
   (binary_operator) @operator
   )
 (logical_concatenator_operator) @operator
