@@ -8959,9 +8959,9 @@ var require_node3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/ast.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/ast.js
 var require_ast = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/ast.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/ast.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -8989,9 +8989,9 @@ var require_ast = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/diagnostic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/diagnostic.js
 var require_diagnostic2 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/diagnostic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/diagnostic.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9018,9 +9018,9 @@ var require_diagnostic2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/token.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/token.js
 var require_token = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/token.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/token.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9049,9 +9049,9 @@ var require_token = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/lexer.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/lexer.js
 var require_lexer = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/lexer.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/lexer.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9098,6 +9098,7 @@ var require_lexer = __commonJS({
       "exactMatches"
     ];
     exports2.CONTRACT_KEYWORDS = [
+      "roles",
       "payload",
       "query",
       "response"
@@ -9832,9 +9833,9 @@ var require_index_umd = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/guards.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/guards.js
 var require_guards = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/guards.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/guards.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -9888,9 +9889,9 @@ var require_guards = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/parser.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/parser.js
 var require_parser = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/parser.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/parser.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -9931,7 +9932,7 @@ var require_parser = __commonJS({
       };
     }();
     Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.parse = exports2.locationMap = void 0;
+    exports2.parse = exports2.memoTable = exports2.locationMap = void 0;
     var token_js_1 = require_token();
     var types_1 = require_dist();
     var core_1 = require_index_umd();
@@ -9942,8 +9943,21 @@ var require_parser = __commonJS({
     var MAX_ERROR_MESSAGE_ITEMS = 20;
     var ICON_NAMES = core_1.icons.map((icon) => icon.name);
     exports2.locationMap = /* @__PURE__ */ new WeakMap();
+    exports2.memoTable = {};
     var isFileProperty = (property) => {
       return property.$ref === "File";
+    };
+    var checkForValidRoles = (roles, symbols) => {
+      if (exports2.memoTable.roles) {
+        for (const [i, role] of roles.entries()) {
+          const symbol = symbols[i];
+          if (!exports2.memoTable.roles.includes(role)) {
+            const location = exports2.locationMap.get(symbol);
+            throw new diagnostic_js_1.Diagnostic(`invalid role "${role}"`, location);
+          }
+        }
+      }
+      return roles;
     };
     var parse = (tokens) => {
       let index = 0;
@@ -10019,8 +10033,9 @@ var require_parser = __commonJS({
         }
       };
       const parseArray = (types) => {
-        const { location } = consume(token_js_1.TokenType.LeftSquareBracket);
+        const { location: openingLocation } = consume(token_js_1.TokenType.LeftSquareBracket);
         const array = [];
+        const symbols = [];
         let type;
         for (const typeCandidate of types) {
           if (match(typeCandidate)) {
@@ -10029,17 +10044,23 @@ var require_parser = __commonJS({
           }
         }
         if (!type) {
-          throw new diagnostic_js_1.Diagnostic(`array got an invalid type, accepted ones are: ${types.join(" | ")}`, location);
+          throw new diagnostic_js_1.Diagnostic(`array got an invalid type, accepted ones are: ${types.join(" | ")}`, openingLocation);
         }
         while (!match(token_js_1.TokenType.RightSquareBracket)) {
-          const { value } = consume(type);
+          const { value, location } = consume(type);
+          const elemSymbol = Symbol();
           array.push(value);
+          symbols.push(elemSymbol);
+          exports2.locationMap.set(elemSymbol, location);
           if (match(token_js_1.TokenType.Comma)) {
             consume(token_js_1.TokenType.Comma);
           }
         }
         consume(token_js_1.TokenType.RightSquareBracket);
-        return array;
+        return {
+          value: array,
+          symbols
+        };
       };
       const parseArrayBlock = (value) => {
         const array = [];
@@ -10091,7 +10112,7 @@ var require_parser = __commonJS({
           property.enum = parseArray([
             token_js_1.TokenType.QuotedString,
             token_js_1.TokenType.Number
-          ]);
+          ]).value;
           return;
         }
         switch (attributeName) {
@@ -10118,7 +10139,7 @@ var require_parser = __commonJS({
             case "form":
             case "populate":
             case "indexes": {
-              property[attributeName] = parseArray([token_js_1.TokenType.Identifier]);
+              property[attributeName] = parseArray([token_js_1.TokenType.Identifier]).value;
               return;
             }
             case "populateDepth": {
@@ -10131,7 +10152,7 @@ var require_parser = __commonJS({
             switch (attributeName) {
               case "extensions":
               case "accept": {
-                property[attributeName] = parseArray([token_js_1.TokenType.QuotedString]);
+                property[attributeName] = parseArray([token_js_1.TokenType.QuotedString]).value;
                 return;
               }
             }
@@ -10148,7 +10169,7 @@ var require_parser = __commonJS({
                 }
                 case "mask": {
                   if (match(token_js_1.TokenType.LeftSquareBracket)) {
-                    property[attributeName] = parseArray([token_js_1.TokenType.QuotedString]);
+                    property[attributeName] = parseArray([token_js_1.TokenType.QuotedString]).value;
                     return;
                   } else {
                     const { value } = consume(token_js_1.TokenType.QuotedString);
@@ -10478,15 +10499,15 @@ var require_parser = __commonJS({
               }
               case "icon": {
                 const { value } = consume(token_js_1.TokenType.QuotedString, ICON_NAMES);
-                node.icon = value;
+                node[keyword] = value;
                 break;
               }
               case "properties": {
-                node.properties = parsePropertiesBlock();
+                node[keyword] = parsePropertiesBlock();
                 break;
               }
               case "functions": {
-                node.functions = parseFunctionsBlock(ast2);
+                node[keyword] = parseFunctionsBlock(ast2);
                 break;
               }
               case "individualActions":
@@ -10540,6 +10561,23 @@ var require_parser = __commonJS({
         while (!match(token_js_1.TokenType.RightBracket)) {
           const { value: keyword } = consume(token_js_1.TokenType.Keyword, lexer.CONTRACT_KEYWORDS);
           switch (keyword) {
+            case "roles": {
+              if (match(token_js_1.TokenType.Boolean)) {
+                const { value: boolean } = consume(token_js_1.TokenType.Boolean);
+                node.roles = boolean;
+              } else if (match(token_js_1.TokenType.QuotedString, "unauthenticated")) {
+                consume(token_js_1.TokenType.QuotedString);
+                node.roles = "unauthenticated";
+              } else if (match(token_js_1.TokenType.QuotedString, "unauthenticated-only")) {
+                consume(token_js_1.TokenType.QuotedString);
+                node.roles = "unauthenticated-only";
+              } else {
+                const { value, symbols } = parseArrayBlock();
+                const roles = checkForValidRoles(value, symbols);
+                node.roles = roles;
+              }
+              break;
+            }
             case "payload": {
               node.payload = parsePropertyType({
                 allowModifiers: true
@@ -10607,9 +10645,10 @@ var require_parser = __commonJS({
                   accessCondition: value
                 };
               } else {
-                const value = parseArray([token_js_1.TokenType.QuotedString]);
+                const { value, symbols } = parseArray([token_js_1.TokenType.QuotedString]);
+                const roles = checkForValidRoles(value, symbols);
                 functions[functionName] = {
-                  accessCondition: value
+                  accessCondition: roles
                 };
               }
               consume(token_js_1.TokenType.RightParens);
@@ -10670,9 +10709,14 @@ var require_parser = __commonJS({
                 baseSlots[keyword] = value;
                 break;
               }
-              case "roles":
+              case "roles": {
+                const { value, symbols } = parseArray([token_js_1.TokenType.Identifier]);
+                const roles = checkForValidRoles(value, symbols);
+                baseSlots[keyword] = roles;
+                break;
+              }
               case "requires": {
-                const value = parseArray([token_js_1.TokenType.Identifier]);
+                const { value } = parseArray([token_js_1.TokenType.Identifier]);
                 baseSlots[keyword] = value;
                 break;
               }
@@ -10764,7 +10808,14 @@ var require_parser = __commonJS({
         try {
           switch (declType) {
             case "collection": {
-              ast.collections.push(parseCollection(ast));
+              const collection = parseCollection(ast);
+              if (collection.name === "User") {
+                const { properties } = collection;
+                if ("roles" in properties && "items" in properties.roles.property && "enum" in properties.roles.property.items) {
+                  exports2.memoTable.roles = properties.roles.property.items.enum;
+                }
+              }
+              ast.collections.push(collection);
               break;
             }
             case "contract": {
@@ -15638,9 +15689,9 @@ var require_dist2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/semantic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/semantic.js
 var require_semantic = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/semantic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/semantic.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -15799,9 +15850,9 @@ var require_semantic = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/utils.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/utils.js
 var require_utils = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/utils.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/utils.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -15938,9 +15989,9 @@ ${"	".repeat(parents.length)}}`;
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js
 var require_generateJSCollections = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16030,9 +16081,9 @@ var require_generateJSCollections = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js
 var require_generateTSCollections = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16139,9 +16190,9 @@ var require_generateTSCollections = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js
 var require_generateExports = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16181,9 +16232,9 @@ export { ${symbolsToExport.map((symbol) => `${symbol.extend}, ${symbol.schema}`)
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js
 var require_generateContracts = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16237,6 +16288,9 @@ var require_generateContracts = __commonJS({
             [utils_js_1.UnquotedSymbol]: responseString
           };
         }
+        if (roles) {
+          contractSchema.roles = roles;
+        }
         return `export const ${name} = defineContract(${(0, utils_js_1.stringify)(contractSchema)})`;
       }).join("\n\n");
       return `import { ${Array.from(imports).join(", ")} } from 'aeria'
@@ -16262,20 +16316,21 @@ var require_generateContracts = __commonJS({
           }
         }
         const contractProperties = (0, utils_js_1.getProperties)(contractSchema);
-        return `export declare const ${contractNode.name}: ${(0, utils_js_1.stringify)({
-          ...contractProperties,
-          ...responseSchema && {
-            response: responseSchema
-          }
-        })}`;
+        if (responseSchema) {
+          contractProperties.response = responseSchema;
+        }
+        if (roles) {
+          contractProperties.roles = roles;
+        }
+        return `export declare const ${contractNode.name}: ${(0, utils_js_1.stringify)(contractProperties)}`;
       }).join("\n\n");
     };
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/index.js
 var require_codegen = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16302,9 +16357,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen.js
 var require_codegen2 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/codegen.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/codegen.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16401,9 +16456,9 @@ var require_codegen2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/compile.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/compile.js
 var require_compile = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/compile.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/compile.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16507,7 +16562,7 @@ var require_compile = __commonJS({
         });
       }
       const result = await (0, exports2.parseAndCheck)(sources, options);
-      if (!result.ast) {
+      if (!result.ast || result.errorCount > 0) {
         return result;
       }
       const emittedFiles = await (0, codegen_js_1.generateCode)(result.ast, options);
@@ -16520,9 +16575,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/index.js
 var require_dist3 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.11_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_kmvngzaawcgw5nma47qjxvytou/node_modules/@aeriajs/compiler/dist/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.12_@aeriajs+common@0.0.136_@aeriajs+types@0.0.118_@phosphor-icons+core@_mafyuddkjef6r34zikf6q4m65y/node_modules/@aeriajs/compiler/dist/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
