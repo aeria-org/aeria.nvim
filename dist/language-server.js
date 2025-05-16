@@ -8959,9 +8959,9 @@ var require_node3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/ast.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/ast.js
 var require_ast = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/ast.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/ast.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -8990,9 +8990,9 @@ var require_ast = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/diagnostic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/diagnostic.js
 var require_diagnostic2 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/diagnostic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/diagnostic.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9022,9 +9022,9 @@ var require_diagnostic2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/token.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/token.js
 var require_token = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/token.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/token.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9055,9 +9055,9 @@ var require_token = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/lexer.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/lexer.js
 var require_lexer = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/lexer.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/lexer.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9938,9 +9938,9 @@ var require_index_umd = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/guards.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/guards.js
 var require_guards = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/guards.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/guards.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -9994,9 +9994,9 @@ var require_guards = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/parser.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/parser.js
 var require_parser = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/parser.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/parser.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16101,9 +16101,9 @@ var require_dist2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/semantic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/semantic.js
 var require_semantic = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/semantic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/semantic.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16152,10 +16152,10 @@ var require_semantic = __commonJS({
     var collectionHasProperty = async (collection, propName, options) => {
       let hasProperty = propName in collection.properties;
       if (!hasProperty) {
-        if (options.languageServer) {
-          return true;
-        }
         if (collection.extends) {
+          if (options.languageServer) {
+            return true;
+          }
           const { packageName, symbolName } = collection.extends;
           const { [symbolName]: importedCollection } = await Promise.resolve(`${packageName}`).then((s) => __importStar(require(s)));
           if (!(0, common_1.isValidCollection)(importedCollection)) {
@@ -16321,9 +16321,9 @@ var require_semantic = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/utils.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/utils.js
 var require_utils = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/utils.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/utils.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16499,9 +16499,9 @@ ${"	".repeat(parents.length)}}`;
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js
 var require_generateJSCollections = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16606,9 +16606,9 @@ var require_generateJSCollections = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js
 var require_generateTSCollections = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16728,9 +16728,9 @@ var require_generateTSCollections = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js
 var require_generateExports = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16770,9 +16770,9 @@ export { ${symbolsToExport.map((symbol) => `${symbol.extend}, ${symbol.schema}`)
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js
 var require_generateContracts = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16866,9 +16866,9 @@ var require_generateContracts = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/index.js
 var require_codegen = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16895,9 +16895,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen.js
 var require_codegen2 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/codegen.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/codegen.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16994,9 +16994,9 @@ var require_codegen2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/compile.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/compile.js
 var require_compile = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/compile.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/compile.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -17092,9 +17092,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/index.js
 var require_dist3 = __commonJS({
-  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.33_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_gdz562y3wwpujsekoy55r5b7hy/node_modules/@aeriajs/compiler/dist/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.34_@aeriajs+common@0.0.143_@aeriajs+types@0.0.125_@phosphor-icons+core@_sbgywukq4mjdp34tuz3a7qpfze/node_modules/@aeriajs/compiler/dist/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
