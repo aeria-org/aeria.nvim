@@ -8959,9 +8959,9 @@ var require_node3 = __commonJS({
   }
 });
 
-// node_modules/balanced-match/index.js
+// ../../node_modules/.pnpm/balanced-match@1.0.2/node_modules/balanced-match/index.js
 var require_balanced_match = __commonJS({
-  "node_modules/balanced-match/index.js"(exports2, module2) {
+  "../../node_modules/.pnpm/balanced-match@1.0.2/node_modules/balanced-match/index.js"(exports2, module2) {
     "use strict";
     init_importMeta();
     module2.exports = balanced;
@@ -9018,9 +9018,9 @@ var require_balanced_match = __commonJS({
   }
 });
 
-// node_modules/brace-expansion/index.js
+// ../../node_modules/.pnpm/brace-expansion@2.0.1/node_modules/brace-expansion/index.js
 var require_brace_expansion = __commonJS({
-  "node_modules/brace-expansion/index.js"(exports2, module2) {
+  "../../node_modules/.pnpm/brace-expansion@2.0.1/node_modules/brace-expansion/index.js"(exports2, module2) {
     init_importMeta();
     var balanced = require_balanced_match();
     module2.exports = expandTop;
@@ -16465,7 +16465,6 @@ var require_semantic = __commonJS({
     var diagnostic_js_1 = require_diagnostic2();
     var AST2 = __importStar(require_ast());
     var collectionHasProperty = async (collection, propName, options = {}) => {
-      console.log({ propName, options });
       let hasProperty = propName in collection.properties;
       if (!hasProperty) {
         if (collection.extends) {
@@ -17697,14 +17696,14 @@ init_importMeta();
 var import_node_url3 = require("node:url");
 var import_promises2 = require("node:fs/promises");
 
-// node_modules/glob/dist/esm/index.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/index.js
 init_importMeta();
 
-// node_modules/minimatch/dist/esm/index.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/index.js
 init_importMeta();
 var import_brace_expansion = __toESM(require_brace_expansion(), 1);
 
-// node_modules/minimatch/dist/esm/assert-valid-pattern.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/assert-valid-pattern.js
 init_importMeta();
 var MAX_PATTERN_LENGTH = 1024 * 64;
 var assertValidPattern = (pattern) => {
@@ -17716,10 +17715,10 @@ var assertValidPattern = (pattern) => {
   }
 };
 
-// node_modules/minimatch/dist/esm/ast.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/ast.js
 init_importMeta();
 
-// node_modules/minimatch/dist/esm/brace-expressions.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/brace-expressions.js
 init_importMeta();
 var posixClasses = {
   "[:alnum:]": ["\\p{L}\\p{Nl}\\p{Nd}", true],
@@ -17829,13 +17828,13 @@ var parseClass = (glob2, position) => {
   return [comb, uflag, endPos - pos, true];
 };
 
-// node_modules/minimatch/dist/esm/unescape.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/unescape.js
 init_importMeta();
 var unescape = (s, { windowsPathsNoEscape = false } = {}) => {
   return windowsPathsNoEscape ? s.replace(/\[([^\/\\])\]/g, "$1") : s.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
 };
 
-// node_modules/minimatch/dist/esm/ast.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/ast.js
 var types = /* @__PURE__ */ new Set(["!", "?", "+", "*", "@"]);
 var isExtglobType = (c) => types.has(c);
 var startNoTraversal = "(?!(?:^|/)\\.\\.?(?:$|/))";
@@ -18314,13 +18313,13 @@ var AST = class _AST {
   }
 };
 
-// node_modules/minimatch/dist/esm/escape.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/escape.js
 init_importMeta();
 var escape = (s, { windowsPathsNoEscape = false } = {}) => {
   return windowsPathsNoEscape ? s.replace(/[?*()[\]]/g, "[$&]") : s.replace(/[?*()[\]\\]/g, "\\$&");
 };
 
-// node_modules/minimatch/dist/esm/index.js
+// ../../node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/index.js
 var minimatch = (p, pattern, options = {}) => {
   assertValidPattern(pattern);
   if (!options.nocomment && pattern.charAt(0) === "#") {
@@ -19038,14 +19037,14 @@ minimatch.Minimatch = Minimatch;
 minimatch.escape = escape;
 minimatch.unescape = unescape;
 
-// node_modules/glob/dist/esm/glob.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/glob.js
 init_importMeta();
 var import_node_url2 = require("node:url");
 
-// node_modules/path-scurry/dist/esm/index.js
+// ../../node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/dist/esm/index.js
 init_importMeta();
 
-// node_modules/lru-cache/dist/esm/index.js
+// ../../node_modules/.pnpm/lru-cache@11.1.0/node_modules/lru-cache/dist/esm/index.js
 init_importMeta();
 var perf = typeof performance === "object" && performance && typeof performance.now === "function" ? performance : Date;
 var warned = /* @__PURE__ */ new Set();
@@ -20433,14 +20432,14 @@ var LRUCache = class _LRUCache {
   }
 };
 
-// node_modules/path-scurry/dist/esm/index.js
+// ../../node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/dist/esm/index.js
 var import_node_path = require("node:path");
 var import_node_url = require("node:url");
 var import_fs = require("fs");
 var actualFS = __toESM(require("node:fs"), 1);
 var import_promises = require("node:fs/promises");
 
-// node_modules/minipass/dist/esm/index.js
+// ../../node_modules/.pnpm/minipass@7.1.2/node_modules/minipass/dist/esm/index.js
 init_importMeta();
 var import_node_events = require("node:events");
 var import_node_stream = __toESM(require("node:stream"), 1);
@@ -21319,7 +21318,7 @@ var Minipass = class extends import_node_events.EventEmitter {
   }
 };
 
-// node_modules/path-scurry/dist/esm/index.js
+// ../../node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/dist/esm/index.js
 var realpathSync = import_fs.realpathSync.native;
 var defaultFS = {
   lstatSync: import_fs.lstatSync,
@@ -23045,7 +23044,7 @@ var PathScurryDarwin = class extends PathScurryPosix {
 var Path = process.platform === "win32" ? PathWin32 : PathPosix;
 var PathScurry = process.platform === "win32" ? PathScurryWin32 : process.platform === "darwin" ? PathScurryDarwin : PathScurryPosix;
 
-// node_modules/glob/dist/esm/pattern.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/pattern.js
 init_importMeta();
 var isPatternList = (pl) => pl.length >= 1;
 var isGlobList = (gl) => gl.length >= 1;
@@ -23211,10 +23210,10 @@ var Pattern = class _Pattern {
   }
 };
 
-// node_modules/glob/dist/esm/walker.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/walker.js
 init_importMeta();
 
-// node_modules/glob/dist/esm/ignore.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/ignore.js
 init_importMeta();
 var defaultPlatform2 = typeof process === "object" && process && typeof process.platform === "string" ? process.platform : "linux";
 var Ignore = class {
@@ -23302,7 +23301,7 @@ var Ignore = class {
   }
 };
 
-// node_modules/glob/dist/esm/processor.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/processor.js
 init_importMeta();
 var HasWalkedCache = class _HasWalkedCache {
   store;
@@ -23524,7 +23523,7 @@ var Processor = class _Processor {
   }
 };
 
-// node_modules/glob/dist/esm/walker.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/walker.js
 var makeIgnore = (ignore, opts) => typeof ignore === "string" ? new Ignore([ignore], opts) : Array.isArray(ignore) ? new Ignore(ignore, opts) : ignore;
 var GlobUtil = class {
   path;
@@ -23851,7 +23850,7 @@ var GlobStream = class extends GlobUtil {
   }
 };
 
-// node_modules/glob/dist/esm/glob.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/glob.js
 var defaultPlatform3 = typeof process === "object" && process && typeof process.platform === "string" ? process.platform : "linux";
 var Glob = class {
   absolute;
@@ -24051,7 +24050,7 @@ var Glob = class {
   }
 };
 
-// node_modules/glob/dist/esm/has-magic.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/has-magic.js
 init_importMeta();
 var hasMagic = (pattern, options = {}) => {
   if (!Array.isArray(pattern)) {
@@ -24064,7 +24063,7 @@ var hasMagic = (pattern, options = {}) => {
   return false;
 };
 
-// node_modules/glob/dist/esm/index.js
+// ../../node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/index.js
 function globStreamSync(pattern, options = {}) {
   return new Glob(pattern, options).streamSync();
 }
@@ -24130,19 +24129,25 @@ var reportDiagnostics = async ({ document }, connection2) => {
   const result = await lang.parseAndCheck(sources, {
     languageServer: true
   });
-  const diagnostics = result.errors.map((error) => ({
-    message: error.message,
-    range: {
-      start: {
-        line: error.location.line - 1,
-        character: error.location.start
-      },
-      end: {
-        line: error.location.line - 1,
-        character: error.location.end
-      }
+  const diagnostics = [];
+  for (const error of result.errors) {
+    if (error.fileLocation !== currentFileName) {
+      continue;
     }
-  }));
+    diagnostics.push({
+      message: error.message,
+      range: {
+        start: {
+          line: error.location.line - 1,
+          character: error.location.start
+        },
+        end: {
+          line: error.location.line - 1,
+          character: error.location.end
+        }
+      }
+    });
+  }
   connection2.sendDiagnostics({
     uri: document.uri,
     diagnostics
