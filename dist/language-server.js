@@ -9169,9 +9169,9 @@ var require_brace_expansion = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/ast.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/ast.js
 var require_ast = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/ast.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/ast.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9200,9 +9200,9 @@ var require_ast = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/diagnostic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/diagnostic.js
 var require_diagnostic2 = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/diagnostic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/diagnostic.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9230,9 +9230,9 @@ var require_diagnostic2 = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/token.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/token.js
 var require_token = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/token.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/token.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9263,9 +9263,9 @@ var require_token = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/lexer.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/lexer.js
 var require_lexer = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/lexer.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/lexer.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9636,9 +9636,9 @@ var require_lexer = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/accessControl.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/accessControl.js
 var require_accessControl = __commonJS({
-  "../../../sonata-api/packages/types/dist/accessControl.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/accessControl.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9661,13 +9661,13 @@ var require_accessControl = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/http.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/http.js
 var require_http = __commonJS({
-  "../../../sonata-api/packages/types/dist/http.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/http.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.STREAMED_RESPONSE = exports2.HTTPStatus = exports2.METHOD_COLORS = exports2.REQUEST_METHODS = void 0;
+    exports2.STREAMED_RESPONSE = exports2.HTTPStatus = exports2.REQUEST_METHODS = void 0;
     exports2.REQUEST_METHODS = [
       "GET",
       "HEAD",
@@ -9679,12 +9679,6 @@ var require_http = __commonJS({
       "TRACE",
       "SEARCH"
     ];
-    exports2.METHOD_COLORS = {
-      GET: "green",
-      PUT: "blue",
-      POST: "white",
-      DELETE: "red"
-    };
     exports2.HTTPStatus = {
       Ok: 200,
       NoContent: 204,
@@ -9701,9 +9695,9 @@ var require_http = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/resultSchemas.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/resultSchemas.js
 var require_resultSchemas = __commonJS({
-  "../../../sonata-api/packages/types/dist/resultSchemas.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/resultSchemas.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9819,9 +9813,9 @@ var require_resultSchemas = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/validation.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/validation.js
 var require_validation = __commonJS({
-  "../../../sonata-api/packages/types/dist/validation.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/validation.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9849,9 +9843,9 @@ var require_validation = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/functionSchemas.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/functionSchemas.js
 var require_functionSchemas = __commonJS({
-  "../../../sonata-api/packages/types/dist/functionSchemas.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/functionSchemas.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9917,45 +9911,45 @@ var require_functionSchemas = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/collection.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/collection.js
 var require_collection = __commonJS({
-  "../../../sonata-api/packages/types/dist/collection.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/collection.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/condition.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/condition.js
 var require_condition = __commonJS({
-  "../../../sonata-api/packages/types/dist/condition.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/condition.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/config.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/config.js
 var require_config = __commonJS({
-  "../../../sonata-api/packages/types/dist/config.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/config.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/context.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/context.js
 var require_context = __commonJS({
-  "../../../sonata-api/packages/types/dist/context.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/context.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/contract.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/contract.js
 var require_contract = __commonJS({
-  "../../../sonata-api/packages/types/dist/contract.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/contract.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9967,9 +9961,9 @@ var require_contract = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/description.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/description.js
 var require_description = __commonJS({
-  "../../../sonata-api/packages/types/dist/description.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/description.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -9992,9 +9986,9 @@ var require_description = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/endpointError.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/endpointError.js
 var require_endpointError = __commonJS({
-  "../../../sonata-api/packages/types/dist/endpointError.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/endpointError.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -10004,18 +9998,18 @@ var require_endpointError = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/functions.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/functions.js
 var require_functions = __commonJS({
-  "../../../sonata-api/packages/types/dist/functions.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/functions.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/property.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/property.js
 var require_property = __commonJS({
-  "../../../sonata-api/packages/types/dist/property.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/property.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -10045,9 +10039,9 @@ var require_property = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/result.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/result.js
 var require_result = __commonJS({
-  "../../../sonata-api/packages/types/dist/result.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/result.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -10068,18 +10062,18 @@ var require_result = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/schema.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/schema.js
 var require_schema = __commonJS({
-  "../../../sonata-api/packages/types/dist/schema.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/schema.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/security.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/security.js
 var require_security = __commonJS({
-  "../../../sonata-api/packages/types/dist/security.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/security.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -10091,18 +10085,18 @@ var require_security = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/types/dist/token.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/token.js
 var require_token2 = __commonJS({
-  "../../../sonata-api/packages/types/dist/token.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/token.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../sonata-api/packages/types/dist/index.js
+// ../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/index.js
 var require_dist = __commonJS({
-  "../../../sonata-api/packages/types/dist/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1/node_modules/@aeriajs/types/dist/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -10144,9 +10138,9 @@ var require_dist = __commonJS({
   }
 });
 
-// ../../../sonata-api/node_modules/.pnpm/@phosphor-icons+core@2.1.1/node_modules/@phosphor-icons/core/dist/index.umd.js
+// ../../node_modules/.pnpm/@phosphor-icons+core@2.1.1/node_modules/@phosphor-icons/core/dist/index.umd.js
 var require_index_umd = __commonJS({
-  "../../../sonata-api/node_modules/.pnpm/@phosphor-icons+core@2.1.1/node_modules/@phosphor-icons/core/dist/index.umd.js"(exports2, module2) {
+  "../../node_modules/.pnpm/@phosphor-icons+core@2.1.1/node_modules/@phosphor-icons/core/dist/index.umd.js"(exports2, module2) {
     init_importMeta();
     (function(t, n) {
       typeof exports2 == "object" && typeof module2 < "u" ? n(exports2) : typeof define == "function" && define.amd ? define(["exports"], n) : (t = typeof globalThis < "u" ? globalThis : t || self, n(t.Phosphor = {}));
@@ -10159,9 +10153,9 @@ var require_index_umd = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/guards.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/guards.js
 var require_guards = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/guards.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/guards.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -10215,9 +10209,9 @@ var require_guards = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/parser.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/parser.js
 var require_parser = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/parser.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/parser.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -11514,9 +11508,9 @@ var require_parser = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/arraysIntersect.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/arraysIntersect.js
 var require_arraysIntersect = __commonJS({
-  "../../../sonata-api/packages/common/dist/arraysIntersect.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/arraysIntersect.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11531,9 +11525,9 @@ var require_arraysIntersect = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/checkForEmptiness.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/checkForEmptiness.js
 var require_checkForEmptiness = __commonJS({
-  "../../../sonata-api/packages/common/dist/checkForEmptiness.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/checkForEmptiness.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11548,9 +11542,37 @@ var require_checkForEmptiness = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/deepClone.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/console.js
+var require_console = __commonJS({
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/console.js"(exports2) {
+    "use strict";
+    init_importMeta();
+    Object.defineProperty(exports2, "__esModule", { value: true });
+    exports2.escape = exports2.METHOD_COLORS = exports2.AnsiColor = void 0;
+    exports2.AnsiColor = {
+      Green: "[32m",
+      Yellow: "[33m",
+      Blue: "[36m",
+      Red: "[31m",
+      White: "[37m"
+    };
+    exports2.METHOD_COLORS = {
+      GET: exports2.AnsiColor.Green,
+      PUT: exports2.AnsiColor.Blue,
+      POST: exports2.AnsiColor.White,
+      DELETE: exports2.AnsiColor.Red
+    };
+    var escape2 = (code, text) => {
+      const codeStr = Array.isArray(code) ? code.map((c) => `\x1B${c}`).join("") : `\x1B${code}`;
+      return `${codeStr}${text}\x1B[0m`;
+    };
+    exports2.escape = escape2;
+  }
+});
+
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/deepClone.js
 var require_deepClone = __commonJS({
-  "../../../sonata-api/packages/common/dist/deepClone.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/deepClone.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11562,9 +11584,9 @@ var require_deepClone = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/deepMerge.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/deepMerge.js
 var require_deepMerge = __commonJS({
-  "../../../sonata-api/packages/common/dist/deepMerge.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/deepMerge.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11606,9 +11628,9 @@ var require_deepMerge = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/dynamicImport.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/dynamicImport.js
 var require_dynamicImport = __commonJS({
-  "../../../sonata-api/packages/common/dist/dynamicImport.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/dynamicImport.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11628,9 +11650,9 @@ var require_dynamicImport = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/result.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/result.js
 var require_result2 = __commonJS({
-  "../../../sonata-api/packages/common/dist/result.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/result.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11660,9 +11682,9 @@ var require_result2 = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/endpointError.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/endpointError.js
 var require_endpointError2 = __commonJS({
-  "../../../sonata-api/packages/common/dist/endpointError.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/endpointError.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11682,9 +11704,9 @@ var require_endpointError2 = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/evaluateCondition.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/evaluateCondition.js
 var require_evaluateCondition = __commonJS({
-  "../../../sonata-api/packages/common/dist/evaluateCondition.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/evaluateCondition.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11764,9 +11786,9 @@ var require_evaluateCondition = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/freshItem.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/freshItem.js
 var require_freshItem = __commonJS({
-  "../../../sonata-api/packages/common/dist/freshItem.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/freshItem.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11815,9 +11837,9 @@ var require_freshItem = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/getMissingProperties.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getMissingProperties.js
 var require_getMissingProperties = __commonJS({
-  "../../../sonata-api/packages/common/dist/getMissingProperties.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getMissingProperties.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11859,9 +11881,9 @@ var require_getMissingProperties = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/getReferenceProperty.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getReferenceProperty.js
 var require_getReferenceProperty = __commonJS({
-  "../../../sonata-api/packages/common/dist/getReferenceProperty.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getReferenceProperty.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11879,9 +11901,9 @@ var require_getReferenceProperty = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/getValueFromPath.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getValueFromPath.js
 var require_getValueFromPath = __commonJS({
-  "../../../sonata-api/packages/common/dist/getValueFromPath.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/getValueFromPath.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11896,9 +11918,9 @@ var require_getValueFromPath = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/http.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/http.js
 var require_http2 = __commonJS({
-  "../../../sonata-api/packages/common/dist/http.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/http.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11925,7 +11947,7 @@ var require_http2 = __commonJS({
     };
     exports2.defaultResponseTransformer = defaultResponseTransformer;
     var request = async (url, payload, config = {}) => {
-      const { requestTransformer, responseTransformer } = config;
+      const { requestTransformer = (context, next) => next(context), responseTransformer = (context, next) => next(context) } = config;
       let params;
       if (config.params) {
         params = config.params;
@@ -11943,34 +11965,24 @@ var require_http2 = __commonJS({
           };
         }
       }
-      let transformedRequest = {
+      const transformedRequest = await requestTransformer({
         url,
         payload,
         params
-      };
-      if (requestTransformer) {
-        transformedRequest = await requestTransformer(transformedRequest, exports2.defaultRequestTransformer);
-      } else {
-        transformedRequest = await (0, exports2.defaultRequestTransformer)(transformedRequest);
-      }
+      }, exports2.defaultRequestTransformer);
       const response = await fetch(transformedRequest.url, transformedRequest.params);
-      let transformedResponse = {
+      const { response: transformedResponse } = await responseTransformer({
         response
-      };
-      if (responseTransformer) {
-        transformedResponse = await responseTransformer(transformedResponse, exports2.defaultResponseTransformer);
-      } else {
-        transformedResponse = await (0, exports2.defaultResponseTransformer)(transformedResponse);
-      }
-      return transformedResponse.response;
+      }, exports2.defaultResponseTransformer);
+      return transformedResponse;
     };
     exports2.request = request;
   }
 });
 
-// ../../../sonata-api/packages/common/dist/isGranted.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isGranted.js
 var require_isGranted = __commonJS({
-  "../../../sonata-api/packages/common/dist/isGranted.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isGranted.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -11996,9 +12008,9 @@ var require_isGranted = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/isReference.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isReference.js
 var require_isReference = __commonJS({
-  "../../../sonata-api/packages/common/dist/isReference.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isReference.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -12010,9 +12022,9 @@ var require_isReference = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/isRequired.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isRequired.js
 var require_isRequired = __commonJS({
-  "../../../sonata-api/packages/common/dist/isRequired.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isRequired.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -12035,9 +12047,9 @@ var require_isRequired = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/isValidCollection.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isValidCollection.js
 var require_isValidCollection = __commonJS({
-  "../../../sonata-api/packages/common/dist/isValidCollection.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/isValidCollection.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -12053,9 +12065,9 @@ var require_isValidCollection = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/convertConditionToQuery.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/convertConditionToQuery.js
 var require_convertConditionToQuery = __commonJS({
-  "../../../sonata-api/packages/common/dist/convertConditionToQuery.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/convertConditionToQuery.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -12132,9 +12144,9 @@ var require_convertConditionToQuery = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/pipe.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/pipe.js
 var require_pipe = __commonJS({
-  "../../../sonata-api/packages/common/dist/pipe.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/pipe.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -12167,9 +12179,9 @@ var require_pipe = __commonJS({
   }
 });
 
-// ../../../sonata-api/node_modules/.pnpm/bson@6.10.3/node_modules/bson/lib/bson.cjs
+// ../../node_modules/.pnpm/bson@6.10.4/node_modules/bson/lib/bson.cjs
 var require_bson = __commonJS({
-  "../../../sonata-api/node_modules/.pnpm/bson@6.10.3/node_modules/bson/lib/bson.cjs"(exports2) {
+  "../../node_modules/.pnpm/bson@6.10.4/node_modules/bson/lib/bson.cjs"(exports2) {
     "use strict";
     init_importMeta();
     var TypedArrayPrototypeGetSymbolToStringTag = (() => {
@@ -12841,6 +12853,7 @@ var require_bson = __commonJS({
         if (this.buffer[0] !== _Binary.VECTOR_TYPE.Int8) {
           throw new BSONError("Binary datatype field is not Int8");
         }
+        validateBinaryVector(this);
         return new Int8Array(this.buffer.buffer.slice(this.buffer.byteOffset + 2, this.buffer.byteOffset + this.position));
       }
       toFloat32Array() {
@@ -12850,6 +12863,7 @@ var require_bson = __commonJS({
         if (this.buffer[0] !== _Binary.VECTOR_TYPE.Float32) {
           throw new BSONError("Binary datatype field is not Float32");
         }
+        validateBinaryVector(this);
         const floatBytes = new Uint8Array(this.buffer.buffer.slice(this.buffer.byteOffset + 2, this.buffer.byteOffset + this.position));
         if (NumberUtils.isBigEndian)
           ByteUtils.swap32(floatBytes);
@@ -12862,6 +12876,7 @@ var require_bson = __commonJS({
         if (this.buffer[0] !== _Binary.VECTOR_TYPE.PackedBit) {
           throw new BSONError("Binary datatype field is not packed bit");
         }
+        validateBinaryVector(this);
         return new Uint8Array(this.buffer.buffer.slice(this.buffer.byteOffset + 2, this.buffer.byteOffset + this.position));
       }
       toBits() {
@@ -12871,6 +12886,7 @@ var require_bson = __commonJS({
         if (this.buffer[0] !== _Binary.VECTOR_TYPE.PackedBit) {
           throw new BSONError("Binary datatype field is not packed bit");
         }
+        validateBinaryVector(this);
         const byteCount = this.length() - 2;
         const bitCount = byteCount * 8 - this.buffer[1];
         const bits = new Int8Array(bitCount);
@@ -12889,7 +12905,9 @@ var require_bson = __commonJS({
         buffer2[1] = 0;
         const intBytes = new Uint8Array(array.buffer, array.byteOffset, array.byteLength);
         buffer2.set(intBytes, 2);
-        return new this(buffer2, this.SUBTYPE_VECTOR);
+        const bin = new this(buffer2, this.SUBTYPE_VECTOR);
+        validateBinaryVector(bin);
+        return bin;
       }
       static fromFloat32Array(array) {
         const binaryBytes = ByteUtils.allocate(array.byteLength + 2);
@@ -12899,14 +12917,18 @@ var require_bson = __commonJS({
         binaryBytes.set(floatBytes, 2);
         if (NumberUtils.isBigEndian)
           ByteUtils.swap32(new Uint8Array(binaryBytes.buffer, 2));
-        return new this(binaryBytes, this.SUBTYPE_VECTOR);
+        const bin = new this(binaryBytes, this.SUBTYPE_VECTOR);
+        validateBinaryVector(bin);
+        return bin;
       }
       static fromPackedBits(array, padding = 0) {
         const buffer2 = ByteUtils.allocate(array.byteLength + 2);
         buffer2[0] = _Binary.VECTOR_TYPE.PackedBit;
         buffer2[1] = padding;
         buffer2.set(array, 2);
-        return new this(buffer2, this.SUBTYPE_VECTOR);
+        const bin = new this(buffer2, this.SUBTYPE_VECTOR);
+        validateBinaryVector(bin);
+        return bin;
       }
       static fromBits(bits) {
         const byteLength = bits.length + 7 >>> 3;
@@ -12954,6 +12976,11 @@ var require_bson = __commonJS({
       const padding = vector.buffer[1];
       if ((datatype === Binary.VECTOR_TYPE.Float32 || datatype === Binary.VECTOR_TYPE.Int8) && padding !== 0) {
         throw new BSONError("Invalid Vector: padding must be zero for int8 and float32 vectors");
+      }
+      if (datatype === Binary.VECTOR_TYPE.Float32) {
+        if (size !== 0 && size - 2 !== 0 && (size - 2) % 4 !== 0) {
+          throw new BSONError("Invalid Vector: Float32 vector must contain a multiple of 4 bytes");
+        }
       }
       if (datatype === Binary.VECTOR_TYPE.PackedBit && padding !== 0 && size === 2) {
         throw new BSONError("Invalid Vector: padding must be zero for packed bit vectors that are empty");
@@ -16173,6 +16200,29 @@ var require_bson = __commonJS({
     EJSON.serialize = EJSONserialize;
     EJSON.deserialize = EJSONdeserialize;
     Object.freeze(EJSON);
+    var BSONElementType = {
+      double: 1,
+      string: 2,
+      object: 3,
+      array: 4,
+      binData: 5,
+      undefined: 6,
+      objectId: 7,
+      bool: 8,
+      date: 9,
+      null: 10,
+      regex: 11,
+      dbPointer: 12,
+      javascript: 13,
+      symbol: 14,
+      javascriptWithScope: 15,
+      int: 16,
+      timestamp: 17,
+      long: 18,
+      decimal: 19,
+      minKey: 255,
+      maxKey: 127
+    };
     function getSize(source, offset) {
       try {
         return NumberUtils.getNonnegativeInt32LE(source, offset);
@@ -16216,28 +16266,28 @@ var require_bson = __commonJS({
         const nameLength = findNull(bytes, offset) - nameOffset;
         offset += nameLength + 1;
         let length;
-        if (type === 1 || type === 18 || type === 9 || type === 17) {
+        if (type === BSONElementType.double || type === BSONElementType.long || type === BSONElementType.date || type === BSONElementType.timestamp) {
           length = 8;
-        } else if (type === 16) {
+        } else if (type === BSONElementType.int) {
           length = 4;
-        } else if (type === 7) {
+        } else if (type === BSONElementType.objectId) {
           length = 12;
-        } else if (type === 19) {
+        } else if (type === BSONElementType.decimal) {
           length = 16;
-        } else if (type === 8) {
+        } else if (type === BSONElementType.bool) {
           length = 1;
-        } else if (type === 10 || type === 6 || type === 127 || type === 255) {
+        } else if (type === BSONElementType.null || type === BSONElementType.undefined || type === BSONElementType.maxKey || type === BSONElementType.minKey) {
           length = 0;
-        } else if (type === 11) {
+        } else if (type === BSONElementType.regex) {
           length = findNull(bytes, findNull(bytes, offset) + 1) + 1 - offset;
-        } else if (type === 3 || type === 4 || type === 15) {
+        } else if (type === BSONElementType.object || type === BSONElementType.array || type === BSONElementType.javascriptWithScope) {
           length = getSize(bytes, offset);
-        } else if (type === 2 || type === 5 || type === 12 || type === 13 || type === 14) {
+        } else if (type === BSONElementType.string || type === BSONElementType.binData || type === BSONElementType.dbPointer || type === BSONElementType.javascript || type === BSONElementType.symbol) {
           length = getSize(bytes, offset) + 4;
-          if (type === 5) {
+          if (type === BSONElementType.binData) {
             length += 1;
           }
-          if (type === 12) {
+          if (type === BSONElementType.dbPointer) {
             length += 12;
           }
         } else {
@@ -16369,9 +16419,9 @@ var require_bson = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/serialize.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/serialize.js
 var require_serialize = __commonJS({
-  "../../../sonata-api/packages/common/dist/serialize.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/serialize.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16386,9 +16436,9 @@ var require_serialize = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/common/dist/index.js
+// ../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/index.js
 var require_dist2 = __commonJS({
-  "../../../sonata-api/packages/common/dist/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@2.1.1__bson@6.10.4/node_modules/@aeriajs/common/dist/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16410,6 +16460,7 @@ var require_dist2 = __commonJS({
     Object.defineProperty(exports2, "__esModule", { value: true });
     __exportStar(require_arraysIntersect(), exports2);
     __exportStar(require_checkForEmptiness(), exports2);
+    __exportStar(require_console(), exports2);
     __exportStar(require_deepClone(), exports2);
     __exportStar(require_deepMerge(), exports2);
     __exportStar(require_dynamicImport(), exports2);
@@ -16431,9 +16482,9 @@ var require_dist2 = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/semantic.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/semantic.js
 var require_semantic = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/semantic.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/semantic.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -16670,9 +16721,9 @@ var require_semantic = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/utils.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/utils.js
 var require_utils = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/utils.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/utils.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16850,9 +16901,9 @@ ${"	".repeat(parents.length)}}`;
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/generateJSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js
 var require_generateJSCollections = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/generateJSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateJSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -16957,9 +17008,9 @@ var require_generateJSCollections = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/generateTSCollections.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js
 var require_generateTSCollections = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/generateTSCollections.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateTSCollections.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -17079,9 +17130,9 @@ var require_generateTSCollections = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/generateExports.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js
 var require_generateExports = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/generateExports.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateExports.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -17123,9 +17174,9 @@ export { ${symbolsToExport.map((symbol) => `${symbol.extend}, ${symbol.schema}`)
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/generateContracts.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js
 var require_generateContracts = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/generateContracts.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/generateContracts.js"(exports2) {
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -17218,9 +17269,9 @@ var require_generateContracts = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/index.js
 var require_codegen = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -17247,9 +17298,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/codegen.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen.js
 var require_codegen2 = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/codegen.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/codegen.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -17348,9 +17399,9 @@ var require_codegen2 = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/compile.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/compile.js
 var require_compile = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/compile.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/compile.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
@@ -17466,9 +17517,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../../sonata-api/packages/compiler/dist/index.js
+// ../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/index.js
 var require_dist3 = __commonJS({
-  "../../../sonata-api/packages/compiler/dist/index.js"(exports2) {
+  "../../node_modules/.pnpm/@aeriajs+compiler@0.0.47_@aeriajs+common@0.0.150_@aeriajs+types@0.0.128_@phosphor-icons+core@_xrsl37tf5qmh7w74f7k5dqfjou/node_modules/@aeriajs/compiler/dist/index.js"(exports2) {
     "use strict";
     init_importMeta();
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
