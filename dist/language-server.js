@@ -9208,21 +9208,19 @@ var require_diagnostic2 = __commonJS({
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Diagnostic = void 0;
     var emptyLocation = {
+      file: "",
       index: 0,
       line: 0,
       start: 0,
       end: 0
     };
-    var Diagnostic = class _Diagnostic extends Error {
+    var Diagnostic = class extends Error {
       message;
       location;
-      fileLocation;
-      static currentFile;
-      constructor(message, location = emptyLocation, fileLocation = _Diagnostic.currentFile) {
+      constructor(message, location = emptyLocation) {
         super();
         this.message = message;
         this.location = location;
-        this.fileLocation = fileLocation;
         if (process.env.NODE_ENV === "debug") {
           console.error(message, location);
         }
@@ -9483,7 +9481,7 @@ var require_lexer = __commonJS({
         valueExtractor: (value) => value.slice(1)
       }
     ];
-    var tokenize = function(rawInput) {
+    var tokenize = function(rawInput, fileLocation) {
       const input = rawInput.replace(/\r\n/g, "\n");
       let index = 0, line = 1, start = 0, end = 0;
       const tokens = [];
@@ -9523,6 +9521,7 @@ var require_lexer = __commonJS({
           if (value) {
             let tokenValue;
             const location = {
+              file: fileLocation,
               index: index += value.length,
               line,
               end: end += value.length,
@@ -9620,6 +9619,7 @@ var require_lexer = __commonJS({
         if (!hasMatch) {
           index += input.slice(index).search(/[ \t\n\{\}\(\)\[\]]/);
           errors.push(new diagnostic_js_1.Diagnostic("unexpected token", {
+            file: fileLocation,
             index,
             line,
             start,
@@ -9667,7 +9667,7 @@ var require_http = __commonJS({
     "use strict";
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.STREAMED_RESPONSE = exports2.HTTPStatus = exports2.REQUEST_METHODS = void 0;
+    exports2.STREAMED_RESPONSE = exports2.HTTPStatus = exports2.METHOD_COLORS = exports2.REQUEST_METHODS = void 0;
     exports2.REQUEST_METHODS = [
       "GET",
       "HEAD",
@@ -9679,6 +9679,12 @@ var require_http = __commonJS({
       "TRACE",
       "SEARCH"
     ];
+    exports2.METHOD_COLORS = {
+      GET: "green",
+      PUT: "blue",
+      POST: "white",
+      DELETE: "red"
+    };
     exports2.HTTPStatus = {
       Ok: 200,
       NoContent: 204,
@@ -9711,7 +9717,8 @@ var require_resultSchemas = __commonJS({
           },
           error,
           result: {
-            const: void 0
+            const: void 0,
+            isConstUndefined: true
           }
         }
       };
@@ -9726,7 +9733,8 @@ var require_resultSchemas = __commonJS({
             const: "Result"
           },
           error: {
-            const: void 0
+            const: void 0,
+            isConstUndefined: true
           },
           result
         }
@@ -9742,7 +9750,8 @@ var require_resultSchemas = __commonJS({
             const: "Error"
           },
           result: {
-            const: void 0
+            const: void 0,
+            isConstUndefined: true
           },
           error: {
             type: "object",
@@ -9778,7 +9787,8 @@ var require_resultSchemas = __commonJS({
             const: "Error"
           },
           result: {
-            const: void 0
+            const: void 0,
+            isConstUndefined: true
           },
           error: {
             type: "object",
@@ -10861,7 +10871,7 @@ var require_parser = __commonJS({
           return checkForValidRoles(value, symbols);
         }
       };
-      const parseCollection = (ast2) => {
+      const parseCollection = () => {
         consume(token_js_1.TokenType.Keyword, "collection");
         const { value: name } = consume(token_js_1.TokenType.Identifier);
         const node = {
@@ -10912,7 +10922,9 @@ var require_parser = __commonJS({
                 break;
               }
               case "functions": {
-                node[keyword] = parseFunctionsBlock(ast2);
+                const { functions, functionSets } = parseFunctionsBlock();
+                node.functions = functions;
+                node.functionSets = functionSets;
                 break;
               }
               case "individualActions":
@@ -11016,9 +11028,10 @@ var require_parser = __commonJS({
         consume(token_js_1.TokenType.RightBracket);
         return node;
       };
-      const parseFunctionsBlock = (ast2) => {
+      const parseFunctionsBlock = () => {
         consume(token_js_1.TokenType.LeftBracket);
         const functions = {};
+        const functionSets = [];
         while (!match2(token_js_1.TokenType.RightBracket)) {
           try {
             if (match2(token_js_1.TokenType.MacroName)) {
@@ -11026,11 +11039,12 @@ var require_parser = __commonJS({
               switch (macroName) {
                 case "include": {
                   const { value: functionSetName, location } = consume(token_js_1.TokenType.Identifier);
-                  const functionset = ast2.functionsets.find((node) => node.name === functionSetName);
-                  if (!functionset) {
-                    throw new diagnostic_js_1.Diagnostic(`functionset "${functionSetName}" not found`, location);
-                  }
-                  Object.assign(functions, functionset.functions);
+                  const functionSetSymbol = Symbol();
+                  exports2.locationMap.set(functionSetSymbol, location);
+                  functionSets.push([
+                    functionSetName,
+                    functionSetSymbol
+                  ]);
                   consume(token_js_1.TokenType.RightParens);
                   break;
                 }
@@ -11070,15 +11084,20 @@ var require_parser = __commonJS({
           }
         }
         consume(token_js_1.TokenType.RightBracket);
-        return functions;
+        return {
+          functions,
+          functionSets
+        };
       };
-      const parseFunctionSet = (ast2) => {
+      const parseFunctionSet = () => {
         consume(token_js_1.TokenType.Keyword, "functionset");
         const { value: name } = consume(token_js_1.TokenType.Identifier);
+        const { functions, functionSets } = parseFunctionsBlock();
         const node = {
           kind: "functionset",
           name,
-          functions: parseFunctionsBlock(ast2)
+          functions,
+          functionSets
         };
         return node;
       };
@@ -11456,7 +11475,7 @@ var require_parser = __commonJS({
         try {
           switch (declType) {
             case "collection": {
-              const collection = parseCollection(ast);
+              const collection = parseCollection();
               if (collection.name === "User") {
                 const { properties } = collection;
                 if ("roles" in properties && "items" in properties.roles.property && "enum" in properties.roles.property.items) {
@@ -11471,7 +11490,7 @@ var require_parser = __commonJS({
               break;
             }
             case "functionset": {
-              ast.functionsets.push(parseFunctionSet(ast));
+              ast.functionsets.push(parseFunctionSet());
               break;
             }
             default:
@@ -11526,34 +11545,6 @@ var require_checkForEmptiness = __commonJS({
       return what[propName] === null || what[propName] === void 0 || what[propName] === "";
     };
     exports2.checkForEmptiness = checkForEmptiness;
-  }
-});
-
-// ../../../sonata-api/packages/common/dist/console.js
-var require_console = __commonJS({
-  "../../../sonata-api/packages/common/dist/console.js"(exports2) {
-    "use strict";
-    init_importMeta();
-    Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.escape = exports2.METHOD_COLORS = exports2.AnsiColor = void 0;
-    exports2.AnsiColor = {
-      Green: "[32m",
-      Yellow: "[33m",
-      Blue: "[36m",
-      Red: "[31m",
-      White: "[37m"
-    };
-    exports2.METHOD_COLORS = {
-      GET: exports2.AnsiColor.Green,
-      PUT: exports2.AnsiColor.Blue,
-      POST: exports2.AnsiColor.White,
-      DELETE: exports2.AnsiColor.Red
-    };
-    var escape2 = (code, text) => {
-      const codeStr = Array.isArray(code) ? code.map((c) => `\x1B${c}`).join("") : `\x1B${code}`;
-      return `${codeStr}${text}\x1B[0m`;
-    };
-    exports2.escape = escape2;
   }
 });
 
@@ -11912,41 +11903,66 @@ var require_http2 = __commonJS({
     init_importMeta();
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.request = exports2.defaultResponseTransformer = exports2.defaultRequestTransformer = void 0;
-    var defaultRequestTransformer = async (url, payload, params) => {
-      const request2 = {
-        url,
-        params
-      };
-      if (payload) {
-        if (params.method === "GET" || params.method === "HEAD") {
-          request2.url += `?${new URLSearchParams(payload)}`;
+    var defaultRequestTransformer = async (context) => {
+      if (context.payload) {
+        if (context.params.method === "GET" || context.params.method === "HEAD") {
+          context.url += `?${new URLSearchParams(context.payload)}`;
         } else {
-          request2.params.body = params.headers?.["content-type"]?.startsWith("application/json") ? JSON.stringify(payload) : payload;
+          context.params.body = context.params.headers?.["content-type"]?.startsWith("application/json") ? JSON.stringify(context.payload) : context.payload;
         }
       }
-      return request2;
+      return context;
     };
     exports2.defaultRequestTransformer = defaultRequestTransformer;
-    var defaultResponseTransformer = async (response) => {
-      const result = response;
-      result.data = await response.text();
-      if (response.headers.get("content-type")?.startsWith("application/json")) {
+    var defaultResponseTransformer = async (context) => {
+      const result = context.response;
+      result.data = await context.response.text();
+      if (context.response.headers.get("content-type")?.startsWith("application/json")) {
         result.data = JSON.parse(String(result.data));
       }
-      return result;
+      context.response = result;
+      return context;
     };
     exports2.defaultResponseTransformer = defaultResponseTransformer;
     var request = async (url, payload, config = {}) => {
-      const { requestTransformer = exports2.defaultRequestTransformer, responseTransformer = exports2.defaultResponseTransformer, params = {
-        method: payload ? "POST" : "GET",
-        headers: payload ? {
-          "content-type": "application/json"
-        } : {}
-      } } = config;
-      const transformedRequest = await requestTransformer(url, payload, params);
+      const { requestTransformer, responseTransformer } = config;
+      let params;
+      if (config.params) {
+        params = config.params;
+      } else {
+        if (payload) {
+          params = {
+            method: "POST",
+            headers: {
+              "content-type": "application/json"
+            }
+          };
+        } else {
+          params = {
+            method: "GET"
+          };
+        }
+      }
+      let transformedRequest = {
+        url,
+        payload,
+        params
+      };
+      if (requestTransformer) {
+        transformedRequest = await requestTransformer(transformedRequest, exports2.defaultRequestTransformer);
+      } else {
+        transformedRequest = await (0, exports2.defaultRequestTransformer)(transformedRequest);
+      }
       const response = await fetch(transformedRequest.url, transformedRequest.params);
-      const transformedResponse = await responseTransformer(response);
-      return transformedResponse;
+      let transformedResponse = {
+        response
+      };
+      if (responseTransformer) {
+        transformedResponse = await responseTransformer(transformedResponse, exports2.defaultResponseTransformer);
+      } else {
+        transformedResponse = await (0, exports2.defaultResponseTransformer)(transformedResponse);
+      }
+      return transformedResponse.response;
     };
     exports2.request = request;
   }
@@ -16394,7 +16410,6 @@ var require_dist2 = __commonJS({
     Object.defineProperty(exports2, "__esModule", { value: true });
     __exportStar(require_arraysIntersect(), exports2);
     __exportStar(require_checkForEmptiness(), exports2);
-    __exportStar(require_console(), exports2);
     __exportStar(require_deepClone(), exports2);
     __exportStar(require_deepMerge(), exports2);
     __exportStar(require_dynamicImport(), exports2);
@@ -16784,7 +16799,9 @@ var require_utils = __commonJS({
       }, {});
     };
     exports2.recursivelyUnwrapPropertyNodes = recursivelyUnwrapPropertyNodes;
-    var isRecord = (value) => typeof value === "object";
+    var isRecord = (value) => {
+      return !!(value && typeof value === "object");
+    };
     var stringify = (value, parents = []) => {
       if (Array.isArray(value)) {
         let arrayString = "[\n";
@@ -16847,7 +16864,7 @@ var require_generateJSCollections = __commonJS({
     ];
     var generateJSCollections = (ast) => {
       let javascriptCode = "";
-      const importsResult = (0, utils_js_1.makeASTImports)(ast, {
+      const importsResult = (0, utils_js_1.makeASTImports)(ast.collections, {
         [utils_js_1.PACKAGE_NAME]: new Set(initialImportedFunctions)
       }, {
         includeRuntimeOnlyImports: true
@@ -16859,10 +16876,10 @@ var require_generateJSCollections = __commonJS({
     exports2.generateJSCollections = generateJSCollections;
     var makeJSCollections = (ast, modifiedSymbols) => {
       const collectionCodes = {};
-      for (const collectionNode of ast) {
+      for (const collectionNode of ast.collections) {
         const id = (0, utils_js_1.getCollectionId)(collectionNode.name);
         const extendCollectionName = (0, utils_js_1.getExtendName)(collectionNode.name);
-        const collectionDefinition = `export const ${id} = ${collectionNode.extends ? `extendCollection(${id in modifiedSymbols ? modifiedSymbols[id] : id}, ${makeJSCollectionSchema(collectionNode, id)})` : `defineCollection(${makeJSCollectionSchema(collectionNode, id)})`}`;
+        const collectionDefinition = `export const ${id} = ${collectionNode.extends ? `extendCollection(${id in modifiedSymbols ? modifiedSymbols[id] : id}, ${makeJSCollectionSchema(ast, collectionNode, id)})` : `defineCollection(${makeJSCollectionSchema(ast, collectionNode, id)})`}`;
         const collectionDeclaration = `export const ${extendCollectionName} = (collection) => extendCollection(${id}, collection)`;
         collectionCodes[collectionNode.name] = [
           "//" + collectionNode.name,
@@ -16872,7 +16889,7 @@ var require_generateJSCollections = __commonJS({
       }
       return Object.values(collectionCodes).join("\n\n");
     };
-    var makeJSCollectionSchema = (collectionNode, collectionId) => {
+    var makeJSCollectionSchema = (ast, collectionNode, collectionId) => {
       const collectionSchema = {
         item: {},
         description: {
@@ -16958,7 +16975,7 @@ var require_generateTSCollections = __commonJS({
       let code = "";
       code += `import type { ${initialImportedTypes.join(", ")} } from '${utils_js_1.PACKAGE_NAME}'
 `;
-      const importsResult = (0, utils_js_1.makeASTImports)(ast);
+      const importsResult = (0, utils_js_1.makeASTImports)(ast.collections);
       code += importsResult.code.join("\n") + "\n\n";
       code += makeTSCollections(ast, importsResult.modifiedSymbols) + "\n";
       return code;
@@ -16966,7 +16983,7 @@ var require_generateTSCollections = __commonJS({
     exports2.generateTSCollections = generateTSCollections;
     var makeTSCollections = (ast, modifiedSymbols) => {
       const collectionCodes = {};
-      for (const collectionNode of ast) {
+      for (const collectionNode of ast.collections) {
         const id = (0, utils_js_1.getCollectionId)(collectionNode.name);
         const schemaName = (0, utils_js_1.resizeFirstChar)(collectionNode.name, true);
         const typeName = id + "Collection";
@@ -17116,17 +17133,16 @@ var require_generateContracts = __commonJS({
     var types_1 = require_dist();
     var utils_js_1 = require_utils();
     var generateContracts = (ast) => {
-      const contractNodes = ast.filter((node) => node.kind === "contract");
-      if (contractNodes.length === 0) {
+      if (ast.contracts.length === 0) {
         return false;
       }
       return {
-        js: makeJSContractsCode(contractNodes),
-        dts: makeTSContractsCode(contractNodes)
+        js: makeJSContractsCode(ast),
+        dts: makeTSContractsCode(ast)
       };
     };
     exports2.generateContracts = generateContracts;
-    var makeJSContractsCode = (contractAst) => {
+    var makeJSContractsCode = (ast) => {
       const imports = /* @__PURE__ */ new Set(["defineContract"]);
       const getCodeForResponse = (responseProperty) => {
         const { kind, modifier, ...propertyNode } = responseProperty;
@@ -17139,8 +17155,8 @@ var require_generateContracts = __commonJS({
         }
         return `${modifierSymbol}(${(0, utils_js_1.stringify)((0, utils_js_1.unwrapPropertyNode)(propertyNode))})`;
       };
-      const declarations = contractAst.map((contractNode) => {
-        const { name, kind, roles, response, ...contractProperty } = contractNode;
+      const declarations = ast.contracts.map((node) => {
+        const { name, kind, roles, response, ...contractProperty } = node;
         let responseString;
         if (response) {
           responseString = "";
@@ -17178,9 +17194,9 @@ var require_generateContracts = __commonJS({
       }
       return response.modifier === "Result" ? (0, types_1.resultSchema)(responseSchema) : (0, types_1.errorSchema)(responseSchema);
     };
-    var makeTSContractsCode = (contractAst) => {
-      return contractAst.map((contractNode) => {
-        const { name, kind, roles, ...contractSchema } = contractNode;
+    var makeTSContractsCode = (ast) => {
+      return ast.contracts.map((node) => {
+        const { name, kind, roles, ...contractSchema } = node;
         let responseSchema = null;
         if (contractSchema.response) {
           if (Array.isArray(contractSchema.response)) {
@@ -17196,7 +17212,7 @@ var require_generateContracts = __commonJS({
         if (roles) {
           contractProperties.roles = roles;
         }
-        return `export declare const ${contractNode.name}: ${(0, utils_js_1.stringify)(contractProperties)}`;
+        return `export declare const ${node.name}: ${(0, utils_js_1.stringify)(contractProperties)}`;
       }).join("\n\n");
     };
   }
@@ -17298,14 +17314,14 @@ var require_codegen2 = __commonJS({
       return mappedPaths;
     };
     var generateCode = async (ast, options) => {
-      const contracts = (0, index_js_1.generateContracts)(ast.contracts);
+      const contracts = (0, index_js_1.generateContracts)(ast);
       const exports3 = (0, index_js_1.generateExports)(ast, {
         hasContracts: !!contracts
       });
       const fileTree = {
         ["collections"]: {
-          ["collections.d.ts"]: (0, index_js_1.generateTSCollections)(ast.collections),
-          ["collections.js"]: (0, index_js_1.generateJSCollections)(ast.collections),
+          ["collections.d.ts"]: (0, index_js_1.generateTSCollections)(ast),
+          ["collections.js"]: (0, index_js_1.generateJSCollections)(ast),
           ["index.d.ts"]: exports3.collections.dts,
           ["index.js"]: exports3.collections.js
         },
@@ -17375,7 +17391,7 @@ var require_compile = __commonJS({
       };
     }();
     Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.compileFromFiles = exports2.parseAndCheck = exports2.GLOB_PATTERN = void 0;
+    exports2.compileFromFiles = exports2.parseAndCheck = exports2.postflight = exports2.GLOB_PATTERN = void 0;
     var diagnostic_js_1 = require_diagnostic2();
     var lexer_js_1 = require_lexer();
     var parser_js_1 = require_parser();
@@ -17383,12 +17399,31 @@ var require_compile = __commonJS({
     var codegen_js_1 = require_codegen2();
     var fs = __importStar(require("node:fs"));
     exports2.GLOB_PATTERN = "**/*.aeria";
+    var postflight = (ast) => {
+      const errors = [];
+      for (const node of ast.collections) {
+        if (node.functionSets?.length) {
+          for (const [functionSetName, locationSymbol] of node.functionSets) {
+            const functionSet = ast.functionsets.find(({ name }) => name === functionSetName);
+            if (!functionSet) {
+              const location = parser_js_1.locationMap.get(locationSymbol);
+              errors.push(new diagnostic_js_1.Diagnostic(`invalid function set "${functionSetName}"`, location));
+              continue;
+            }
+            Object.assign(node.functions, functionSet.functions);
+          }
+        }
+      }
+      return {
+        errors
+      };
+    };
+    exports2.postflight = postflight;
     var parseAndCheck = async (sources, options = {}) => {
       const errors = [];
       const allTokens = [];
       for (const fileName in sources) {
-        diagnostic_js_1.Diagnostic.currentFile = fileName;
-        const { errors: lexerErrors, tokens } = (0, lexer_js_1.tokenize)(sources[fileName]);
+        const { errors: lexerErrors, tokens } = (0, lexer_js_1.tokenize)(sources[fileName], fileName);
         if (lexerErrors.length > 0) {
           errors.push(...lexerErrors);
         }
@@ -17396,7 +17431,8 @@ var require_compile = __commonJS({
       }
       const { errors: parserErrors, ast } = (0, parser_js_1.parse)(allTokens);
       const { errors: semanticErrors } = await (0, semantic_js_1.analyze)(ast, options);
-      errors.push(...parserErrors.concat(semanticErrors));
+      const { errors: postflightErrors } = (0, exports2.postflight)(ast);
+      errors.push(...parserErrors.concat(semanticErrors, postflightErrors));
       return {
         success: errors.length === 0,
         errors,
@@ -24131,7 +24167,7 @@ var reportDiagnostics = async ({ document }, connection2) => {
   });
   const diagnostics = [];
   for (const error of result.errors) {
-    if (error.fileLocation !== currentFileName) {
+    if (error.location.file !== currentFileName) {
       continue;
     }
     diagnostics.push({
